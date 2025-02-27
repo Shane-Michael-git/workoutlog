@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM Workout Logger</title>
+    <link rel="stylesheet" href="dreamstyle.css">
+</head>
+<body>
+    <main>  
+        <div id="nav">
+            <nav>
+            
+                <h1>Workout Logger</h1>
+       
+        
+                <button type="button" id="toggle-dark">Dark Mode</button>
+                <a class="topmenu" href="workhistory.html">History</a>
+            
+           
+            </nav>
+        </div>
+
+    <form id="workout-form">
+        <input type="text" id="exercise" placeholder="Enter Exercise" required>
+        <div id="sets-container">
+            <div id="set">
+                
+            </div>
+        </div>
+        
+        <button type="button" id="add-set">Add Set</button>
+        <button type="submit">Log Workout</button>
+    </form>
+    
+    <ul id="workout-list"></ul>
+    <script src="dreamscript.js"></script>
+    </main>     
+</body>
+</html>
